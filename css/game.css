@@ -139,7 +139,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid #ccc;
     position: fixed;
-    z-index: 10000;
+    z-index: 1000000000;
 }
 .icon img {
     width: 100%;
