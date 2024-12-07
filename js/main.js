@@ -172,7 +172,15 @@ toggleButton.addEventListener('click', () => {
         console.log("안 나왔어")
     }
 });
+const dialogflowFrame = document.getElementById('dialogflowFrame');
 
+dialogflowFrame.addEventListener('load', () => {
+    console.log("Dialogflow iframe 로드 완료");
+});
+
+dialogflowFrame.addEventListener('error', () => {
+    console.error("Dialogflow iframe 로드 실패: URL을 확인하세요:", dialogflowFrame.src);
+});
 
 const main = new Main();
 main.run();
