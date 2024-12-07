@@ -146,8 +146,8 @@ body {
     overflow: hidden;
 }
 .icon img {
-    width: 100;
-    height: 100;
+    width: auto;
+    height: auto;
     border-radius: 50%;
     pointer-events: auto;
     position: fixed;
