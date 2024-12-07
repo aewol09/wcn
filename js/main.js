@@ -166,8 +166,10 @@ const iframeContainer = document.getElementById('iframeContainer');
 toggleButton.addEventListener('click', () => {
     if (iframeContainer.style.display === 'none' || !iframeContainer.style.display) {
         iframeContainer.style.display = 'block';
+        console.log("나왔어")
     } else {
         iframeContainer.style.display = 'none';
+        console.log("안 나왔어")
     }
 });
 
