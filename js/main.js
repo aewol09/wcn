@@ -159,6 +159,17 @@ class Main {
     
 }
 
+const toggleButton = document.getElementById('toggleButton');
+const iframeContainer = document.getElementById('iframeContainer');
+
+// 아이콘 클릭 시 iframe 표시/숨기기
+toggleButton.addEventListener('click', () => {
+    if (iframeContainer.style.display === 'none' || !iframeContainer.style.display) {
+        iframeContainer.style.display = 'block';
+    } else {
+        iframeContainer.style.display = 'none';
+    }
+});
 
 
 const main = new Main();
