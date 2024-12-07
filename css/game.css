@@ -134,10 +134,8 @@ body {
 #iframeContainer {
     display: none;
     position: fixed;
-    top: 50px;
+    top: 40px;
     left: 20px;
-    width: 200px;
-    height: 350px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid #ccc;
     position: fixed;
