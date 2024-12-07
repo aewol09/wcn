@@ -136,12 +136,15 @@ body {
     position: fixed;
     top: 40px;
     left: 20px;
+    width: 200px;
+    height: 350px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     border: none;
     padding: 0;
     margin: 0;
     position: relative;
     z-index: 2147483647;
+    overflow: hidden;
 }
 .icon img {
     width: 100%;
