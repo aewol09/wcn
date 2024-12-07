@@ -129,6 +129,7 @@ body {
     bottom: 20px;
     left: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index:999;
 }  
 #iframeContainer {
     display: none;
@@ -139,9 +140,14 @@ body {
     height: 350px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid #ccc;
+    position: fixed;
+    z-index: 1000;
 }
 .icon img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    pointer-events: auto
+    position: fixed;
+    z-index: 1000;
 }
